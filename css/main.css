@@ -21,6 +21,13 @@ a:visited {color:#0193c9;}  /* visited link */
 a:hover {color:#027ca9;}  /* mouse over link */
 a:active {color:#01678d;}  /* selected link */
 
+h1
+{
+	color:#FFF;
+	font-family: Titil;
+	font-size:28px;
+}
+
 
 div.full
 {	
@@ -83,17 +90,25 @@ div.nav
 
 #nav_alumni
 {
-	background:url(../images/Nav/alumni.png) no-repeat;
-	
+	background:url(../images/Nav/alumni.png) no-repeat;	
 }
 
 #nav_alumni p
 {
 	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:12px;
+	font-size:14px;
 	padding:0 0 10px 0;
 	margin:0;
 	width:100%;
+}
+
+#nav_alumni hr
+{
+	border:0;
+	height:2.5px;
+	color:#FFD27C;
+	background-color:#FFD27C;
+	margin-bottom:20px;
 }
 
 #nav_sponsors
@@ -101,6 +116,13 @@ div.nav
 	background:url(../images/Nav/sponsors.png) no-repeat;
 
 }
+
+#nav_sponsors p
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+}
+
 
 #nav_staff
 {
@@ -143,15 +165,26 @@ ul.mainContent li span
 #AlumniMap
 {
 	float:right;
-	margin:0 0 0 20px;
+	margin:0 20px 0 0;
 	width:490px;
 }
 
-#AlumniMap p
+#AlumniPics
 {
-
+	width:190px;
+	text-align:center;
 }
 
+#AlumniPics img
+{
+	padding-bottom:19px;
+}
+
+#AlumniPics p
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
 
 #sponsor
 {
@@ -161,9 +194,37 @@ ul.mainContent li span
 #staff
 {
   	background:#5d5d5d;
+	color:#FFF;
+    font-family: Titil;
 }
 
+#staff_header
+{
+	width:100%;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
 
+#staff_faculty
+{
+	display:block;
+	float:left;
+	width:50%;
+}
+
+#staff_staff
+{
+	display:block;
+	float:left;
+	width:50%;
+}
+
+#staff .staff_type{
+	color:#999999;
+}
+
+#staff .staff_smlTxt{
+	font-size:8pt;
+}
 /* -------------------------- 
  		Content 			 
    --------------------------*/
@@ -172,7 +233,7 @@ ul.mainContent li span
 	font-family:Titil;
 	margin-top: 0px;
 	padding-top: 0px;
-	margin-left: 50px;
+	margin-left: 40px;
 	width: 710px;
 	height: 500px;
 }
@@ -211,13 +272,13 @@ ul.mainContent li span
 	margin-bottom:15px;
 }
 
-ul li p{
+/*ul li p{
   margin: 0;
   padding: 0;
   width: 210px;
   display: block;
   margin-left: 30px;
-}
+}*/
 
 
 /* -------------------------- 

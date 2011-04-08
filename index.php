@@ -100,7 +100,7 @@
 		jQuery(document).ready(function() 
 		{
 			lastBlock = $("#home");
-			maxWidth = 730;
+			maxWidth = 740;
 			minWidth = 30;	
 			
 			//$(lastBlock).animate({width: maxWidth+"px"}, { queue:false, duration:400 });
@@ -201,7 +201,7 @@
 			  <div class="nav" id="nav_alumni">
 			  	<div class="content">
                        	<div id="#AlumniTitle">
-                        	<p>Alumni Night</p>
+                        	<h1>Alumni Night</h1>
                             <p>APRIL 16TH, 2011, 5–8PM, UNIVERSITY CENTRE GALLERIA</p>
                         </div>
                         <div id="AlumniMap">
@@ -211,7 +211,12 @@
                             <img src="images/Alumni Night/Map.png" />
                         </div>
                         <div id="AlumniPics">
-                        
+                        	<img src="images/Alumni Night/Important-guy.gif" />
+                            <img src="images/Alumni Night/CarletonSeal.png" />
+                            <p>
+                            	Complimentary refreshments.<br />
+								Free parking available in Lot P2.
+                           	</p>
                         </div>
 			    </div>	  
 			  </div>
@@ -219,34 +224,50 @@
 			<li class="mainNav" id="sponsor" title="Sponsors">
 			  <div class="nav" id="nav_sponsors">
 			  		<div class="content">
-                    	Sponsors + Thanks<br /><br />The School of Industrial Design and the 2010-11 Bachelor of Industrial Design graduating class would like to sincerely thank this year’s collaborators and sponsors for their contributions and support.
+                    	<h1>Sponsors + Thanks</h1>
+                        <p>The School of Industrial Design and the 2010-11 Bachelor of Industrial Design graduating class would like to sincerely thank this year’s collaborators and sponsors for their contributions and support.</p>
 			    	</div>	  
 			  	</div>  
 			</li>
 			<li class="mainNav" id="staff" title="Staff and Supporters">
 				<div class="nav" id="nav_staff">
 			  		<div class="content">
-			        	Staff + Support<br /><br />In addition to their sponsors, the 2010-11 Bachelor of Industrial Design graduating class would like to also thank the faculty and staff at the School of Industrial Design.
-                       	<br /><br />
-                        <table width="700" border="0">
-                          <tr>
-                            <td  >FACULTY:<br />
-                              Thomas GarveyDirector,<br /> School of Industrial Design<br />
-                              Brian BurnsAssociate Professor,<br /> School of Industrial Design<br />
-                              WonJoon ChungAssociate Professor,<br /> School of Industrial Design<br />
-                              Stephen FieldInstructor,<br /> School of Industrial Design<br />
-                              Lois FrankelAssociate Professor,<br /> School of Industrial Design<br />
-                              Bjarki HallgrimssonAssociate Professor,<br /> School of Industrial Design<br />
-                            Lorenzo ImbesiAssociate Professor,<br /> School of Industrial Design</td>
-                            <td>STAFF:<br />
-                              Diane SmythAdministrator,<br /> School of Industrial Design<br />
-                              Valerie DaleyAdministrative Assistant,<br /> School of Industrial Design<br />
-                              Walter ZanettiChief Technician,<br /> School of Industrial Design<br />
-                              Jim DewarMachine Shop Technician,<br /> School of Industrial Design<br />
-                              Terry FlahertyWood Shop Technician,<br /> School of Industrial Design<br />
-                            Andrew PullinComputer Technician,<br /> School of Industrial Design</td>
-                          </tr>
-                          </table>
+                    	<div id="staff_header">
+			        	<h1>Staff + Support</h1>
+                        <p>In addition to their sponsors, the 2010-11 Bachelor of Industrial Design graduating 
+                        class would like to also thank the faculty and staff at the School of Industrial Design.</p>
+                        </div>
+                        <div id="staff_faculty">
+                        	<span class="staff_type">FACULTY:</span><br />
+                              Thomas Garvey<br />
+								<span class="staff_smlTxt">Director, School of Industrial Design</span><br />
+                              Brian Burns<br />
+								<span class="staff_smlTxt">Associate Professor,School of Industrial Design</span><br />
+                              WonJoon Chung<br />
+								<span class="staff_smlTxt">Associate Professor, School of Industrial Design</span><br />
+                              Stephen Field<br />
+								<span class="staff_smlTxt">Instructor, School of Industrial Design</span><br />
+                              Lois Frankel<br />
+								<span class="staff_smlTxt">Associate Professor, School of Industrial Design</span><br />
+                              Bjarki Hallgrimsson<br />
+								<span class="staff_smlTxt">Associate Professor, School of Industrial Design</span><br />
+                           	  Lorenzo Imbesi<br />
+								<span class="staff_smlTxt">Associate Professor, School of Industrial Design</span>
+                       	</div>
+                        <div id="staff_staff">
+                        	<span class="staff_type">STAFF:</span><br />
+                                Diane Smyth<br />
+									<span class="staff_smlTxt">Administrator, School of Industrial Design</span><br />
+                                Valerie Daley<br />
+									<span class="staff_smlTxt">Administrative Assistant, School of Industrial Design</span><br />
+                                Walter Zanetti<br />
+									<span class="staff_smlTxt">Chief Technician, School of Industrial Design</span><br />
+                                Jim Dewar<br />
+									<span class="staff_smlTxt">Machine Shop Technician, School of Industrial Design</span><br />
+                                Terry Flaherty<br />
+									<span class="staff_smlTxt">Wood Shop Technician, School of Industrial Design</span><br />
+                                Andrew Pullin<br />
+									<span class="staff_smlTxt">Computer Technician, School of Industrial Design</span></div>
 			    	</div>	  
 			  	</div> 
 			</li>
