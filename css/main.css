@@ -28,6 +28,11 @@ h1
 	font-size:28px;
 }
 
+p{
+	text-align:justify;
+	padding-right:25px;
+	
+}
 
 div.full
 {	
@@ -154,8 +159,8 @@ ul.mainContent li span
 
 #projects
 {
-  	/*width: 840px; */
 	background:#099ec9;
+	display:none;
 }
 
 #alumni
@@ -190,6 +195,20 @@ ul.mainContent li span
 #sponsor
 {
 	background:#d0d0d0;
+}
+
+#sponsor_LogoBox
+{
+	width:550px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#sponsor_LogoBox img
+{
+	display:inline-block;
+	float:left;
+	padding:0 10px 0 10px;
 }
 
 #staff
@@ -265,7 +284,7 @@ ul.mainContent li span
 }
 
 #map p{
-	font:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:14px;
 	margin:0;
 	width:inherit;
