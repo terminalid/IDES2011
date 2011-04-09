@@ -1,8 +1,9 @@
 	     <?php
-	     error_reporting(E_ALL);
+/*	     error_reporting(E_ALL);
 		 ini_set('display_errors', false);
      	 require_once('functions-db.php');
 		 $db_control = new dataBase();
+*/
 	     ?>
 
 
@@ -160,7 +161,7 @@
 				
                 
                 	<?php
-					 	$query =  $db_control->query_getStudents();
+/*					 	$query =  $db_control->query_getStudents();
 						$i=1;
 						while($row = mysql_fetch_array($query)){ 
 							echo '<li data-id="id-'.$i.'" data-type="'.$row["grp_name"].'">';
@@ -170,7 +171,7 @@
 							echo '</li>';
 							$i++;
 						}
-	
+	*/
 					?>
 			
 			      </ul>
@@ -226,6 +227,14 @@
 			  		<div class="content">
                     	<h1>Sponsors + Thanks</h1>
                         <p>The School of Industrial Design and the 2010-11 Bachelor of Industrial Design graduating class would like to sincerely thank this year’s collaborators and sponsors for their contributions and support.</p>
+                        <div id="sponsor_LogoBox">
+                        	<img src="images/sponcers/cpc.png" />
+                            <img src="images/sponcers/oce.png" />
+                            <img src="images/sponcers/omnr.png" />
+                            <img src="images/sponcers/rim.png" />
+                            <img src="images/sponcers/smart.png" />
+                            <img src="images/sponcers/teknion.png" />
+                        </div>
 			    	</div>	  
 			  	</div>  
 			</li>
