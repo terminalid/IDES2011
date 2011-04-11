@@ -207,7 +207,7 @@
                         </div>
                         <div id="AlumniMap">
                         	<p>The School of Industrial Design and the Carleton University Alumni Association, Industrial Design Chapter, invite you to the annual Alumni Night, on April 16th, 2011 at 5PM, to honour the contributions of Jacques Ostiguy to the School of Industrial Design. Featuring presentations by Floyd Pushelberg and many others.</p>
-                            <p>Please register at <a href="alumni.carleton.ca/events">alumni.carleton.ca/events</a></p>
+                            <p>Please register at <a href="Http://alumni.carleton.ca/events">alumni.carleton.ca/events</a></p>
                             <hr />
                             <img src="images/Alumni Night/Map.png" />
                         </div>
